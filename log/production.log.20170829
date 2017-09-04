@@ -1,0 +1,250 @@
+# Logfile created on 2017-08-29 21:03:18 +0900 by logger.rb/44203
+I, [2017-08-29T21:29:31.558534 #5422]  INFO -- : Migrating to CreateBasicTables (1)
+I, [2017-08-29T21:29:32.246845 #5422]  INFO -- : Migrating to CreateCkeditorAssets (20130731121803)
+I, [2017-08-29T21:29:32.290641 #5422]  INFO -- : Migrating to AddColumnLatestToPageContents (20130802042505)
+I, [2017-08-29T21:29:32.335715 #5422]  INFO -- : Migrating to AddColumnDeletableToGenres (20130805020220)
+I, [2017-08-29T21:29:32.413020 #5422]  INFO -- : Migrating to AddColumnOriginalIdToPages (20130805020246)
+I, [2017-08-29T21:29:32.426654 #5422]  INFO -- : Migrating to ChangeColumnDefaultPublicToHelps (20130816045121)
+I, [2017-08-29T21:29:32.432423 #5422]  INFO -- : Migrating to CreateEngineMasters (20130819022532)
+I, [2017-08-29T21:29:32.456682 #5422]  INFO -- : Migrating to ChangeColumnDefaultNavigationToHelpCategories (20130821054123)
+I, [2017-08-29T21:29:32.463637 #5422]  INFO -- : Migrating to CreatePageTemplates (20130826030037)
+I, [2017-08-29T21:29:32.496709 #5422]  INFO -- : Migrating to AddColumnFormatToPageContents (20130909061246)
+I, [2017-08-29T21:29:32.546151 #5422]  INFO -- : Migrating to AddFeatureToSection (20131003042312)
+I, [2017-08-29T21:29:32.571427 #5422]  INFO -- : Migrating to AddSessionsTable (20140106023932)
+I, [2017-08-29T21:29:32.603207 #5422]  INFO -- : Migrating to AddColumnEditRequiredToPageContentsUnlessExists (20140327024428)
+I, [2017-08-29T21:29:32.646602 #5422]  INFO -- : Migrating to AddColumQueueToJobs (20140407075311)
+I, [2017-08-29T21:29:32.692122 #5422]  INFO -- : Migrating to AddColumnSkipAccessibilityCheckToSections (20140521043052)
+I, [2017-08-29T21:29:32.747993 #5422]  INFO -- : Migrating to AddMailAddressDomainPartInSection (20140925060728)
+I, [2017-08-29T21:30:40.075313 #5507]  INFO -- : Migrating to CreateAdvertisements (20170829123010)
+I, [2017-08-29T21:30:42.804058 #5507]  INFO -- : Migrating to CreateAdvertisementLists (20170829123011)
+I, [2017-08-29T21:30:42.851919 #5507]  INFO -- : Migrating to AddAndRenameColumnsForAttachmentInAdvertisements (20170829123012)
+I, [2017-08-29T21:30:42.876526 #5507]  INFO -- : Migrating to AddTopagesbannerColumn (20170829123013)
+I, [2017-08-29T21:30:42.886114 #5507]  INFO -- : Migrating to AddColumnBlogEnabledToGenres (20170829123014)
+I, [2017-08-29T21:30:42.937469 #5507]  INFO -- : Migrating to RemoveBlogEnabledAddBlogFolderTypeInGenres (20170829123015)
+I, [2017-08-29T21:30:42.981984 #5507]  INFO -- : Migrating to AddColumnBlogDateToPages (20170829123016)
+I, [2017-08-29T21:30:42.988900 #5507]  INFO -- : Migrating to CreateConsultManagementConsults (20170829123017)
+I, [2017-08-29T21:30:43.026979 #5507]  INFO -- : Migrating to CreateConsultManagementConsultCategories (20170829123018)
+I, [2017-08-29T21:30:43.050035 #5507]  INFO -- : Migrating to CreateConsultManagementConsultCategoryMembers (20170829123019)
+I, [2017-08-29T21:30:43.073468 #5507]  INFO -- : Migrating to AddEventFolderTypeInGenres (20170829123020)
+I, [2017-08-29T21:30:43.116032 #5507]  INFO -- : Migrating to AddEventDateInPages (20170829123021)
+I, [2017-08-29T21:30:43.121209 #5507]  INFO -- : Migrating to AddColumnEditRequiredToPageContents (20170829123022)
+I, [2017-08-29T22:39:31.583208 #9168]  INFO -- : Started GET "/susanoo" for 127.0.0.1 at 2017-08-29 22:39:31 +0900
+I, [2017-08-29T22:39:32.225018 #9168]  INFO -- : Processing by Susanoo::UsersController#login as HTML
+I, [2017-08-29T22:39:32.816991 #9168]  INFO -- :   Rendered shared/infos/_index.html.erb (32.8ms)
+I, [2017-08-29T22:39:32.817526 #9168]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (371.0ms)
+I, [2017-08-29T22:39:32.875217 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (20.8ms)
+I, [2017-08-29T22:39:33.388802 #9168]  INFO -- : Completed 200 OK in 1146ms (Views: 1035.1ms | ActiveRecord: 103.1ms)
+I, [2017-08-29T22:39:33.742681 #9168]  INFO -- : Started GET "/assets/application-0479cd911e26eaf2212b96afac662506.css" for 127.0.0.1 at 2017-08-29 22:39:33 +0900
+I, [2017-08-29T22:39:34.124103 #9168]  INFO -- : Started GET "/assets/ckeditor/init-fa066fcdf888dd8a05d9bdd6b146d23c.js" for 127.0.0.1 at 2017-08-29 22:39:34 +0900
+I, [2017-08-29T22:39:34.180913 #9168]  INFO -- : Started GET "/assets/ckeditor/config.allowed_content-43b6377e35898d880dd9bb8e240d11b3.js" for 127.0.0.1 at 2017-08-29 22:39:34 +0900
+I, [2017-08-29T22:39:34.187834 #9168]  INFO -- : Started GET "/assets/ckeditor/config.toolbar-a1c497edccd325b1a45133dd3c0b965c.js" for 127.0.0.1 at 2017-08-29 22:39:34 +0900
+I, [2017-08-29T22:39:34.192733 #9168]  INFO -- : Started GET "/assets/application-ef25083e565030667873303e863f657b.js" for 127.0.0.1 at 2017-08-29 22:39:34 +0900
+I, [2017-08-29T22:39:35.181286 #9168]  INFO -- : Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:35.439727 #9168]  INFO -- : Started GET "/assets/ckeditor/config.language_list-e133fbda5226e0480b800a19944aa24f.js" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:35.448509 #9168]  INFO -- : Started GET "/assets/info-2309facf4c20c573728201fa4497f477.js" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:35.475676 #9168]  INFO -- : Started GET "/assets/ckeditor/config.remove_empty_tags-6a51981bed66f8a0e5aaaedc79f6eac2.js" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:35.497072 #9168]  INFO -- : Started GET "/assets/bootstrap.ckeditor.modal.fix-02cbd2348281d25a0f39857a6d6cd614.js" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:35.993745 #9168]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2017-08-29 22:39:35 +0900
+I, [2017-08-29T22:39:36.033997 #9168]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-29T22:39:36.034127 #9168]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-29T22:39:36.083272 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.7ms)
+I, [2017-08-29T22:39:36.083543 #9168]  INFO -- : Completed 404 Not Found in 49ms (Views: 25.4ms | ActiveRecord: 19.9ms)
+I, [2017-08-29T22:39:36.088557 #9168]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2017-08-29 22:39:36 +0900
+I, [2017-08-29T22:39:36.091620 #9168]  INFO -- : Processing by Susanoo::VisitorsController#view as 
+I, [2017-08-29T22:39:36.091839 #9168]  INFO -- :   Parameters: {"path"=>"favicon"}
+I, [2017-08-29T22:39:36.129751 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/not_found.html.erb (0.0ms)
+I, [2017-08-29T22:39:36.129953 #9168]  INFO -- : Completed 404 Not Found in 38ms (Views: 0.6ms | ActiveRecord: 35.7ms)
+I, [2017-08-29T22:39:54.246984 #9168]  INFO -- : Started POST "/susanoo/users/authenticate" for 127.0.0.1 at 2017-08-29 22:39:54 +0900
+I, [2017-08-29T22:39:54.258142 #9168]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-29T22:39:54.258287 #9168]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"RNeSr0NwScqCAmXsJg1gNAkvSpRsc5dtRdS/E/bpq0Y=", "user"=>{"login"=>"", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-29T22:39:54.306201 #9168]  INFO -- :   Rendered shared/infos/_index.html.erb (1.0ms)
+I, [2017-08-29T22:39:54.306454 #9168]  INFO -- :   Rendered susanoo/users/login.html.erb within layouts/application (5.2ms)
+I, [2017-08-29T22:39:54.311640 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (0.5ms)
+I, [2017-08-29T22:39:54.339052 #9168]  INFO -- : Completed 200 OK in 81ms (Views: 38.1ms | ActiveRecord: 23.2ms)
+I, [2017-08-29T22:41:28.555875 #9168]  INFO -- : Started POST "/susanoo/users/authenticate" for 127.0.0.1 at 2017-08-29 22:41:28 +0900
+I, [2017-08-29T22:41:28.558713 #9168]  INFO -- : Processing by Susanoo::UsersController#authenticate as HTML
+I, [2017-08-29T22:41:28.558911 #9168]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"RNeSr0NwScqCAmXsJg1gNAkvSpRsc5dtRdS/E/bpq0Y=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+I, [2017-08-29T22:41:28.793632 #9168]  INFO -- : Redirected to http://localhost:8000/susanoo/dashboards
+I, [2017-08-29T22:41:28.794105 #9168]  INFO -- : Completed 302 Found in 235ms (ActiveRecord: 59.3ms)
+I, [2017-08-29T22:41:28.951110 #9168]  INFO -- : Started GET "/susanoo/dashboards" for 127.0.0.1 at 2017-08-29 22:41:28 +0900
+I, [2017-08-29T22:41:28.969952 #9168]  INFO -- : Processing by Susanoo::DashboardsController#index as HTML
+I, [2017-08-29T22:41:29.109038 #9168]  INFO -- :   Rendered shared/infos/_index.html.erb (0.5ms)
+I, [2017-08-29T22:41:29.109190 #9168]  INFO -- :   Rendered susanoo/dashboards/index.html.erb within layouts/application (6.5ms)
+I, [2017-08-29T22:41:29.248816 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (71.4ms)
+I, [2017-08-29T22:41:29.290018 #9168]  INFO -- : Completed 200 OK in 320ms (Views: 224.2ms | ActiveRecord: 62.6ms)
+I, [2017-08-29T22:41:29.503209 #9168]  INFO -- : Started GET "/assets/susanoo/dashboards-ccb23453bd44faefde56ccef6d082f9f.css" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.507530 #9168]  INFO -- : Started GET "/assets/arrow-down-right-43286e96bd87ff93663ff97fabf2b760.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.562352 #9168]  INFO -- : Started GET "/assets/arrow2-right-ee344fceb1bbc276072a7d206e12df7d.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.600417 #9168]  INFO -- : Started GET "/assets/arrow-right-fb57d87c2c175cde0af3ecdb47bbd08c.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.694032 #9168]  INFO -- : Started GET "/assets/visitor-d3f9d86edcce5c6dab35903eec6a250b.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.742981 #9168]  INFO -- : Started GET "/assets/manager-e3f4c6f61c9215b724faabaa42772448.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.794981 #9168]  INFO -- : Started GET "/assets/editor-eba3737210af7034ab7cc1ff752d964a.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:29.801710 #9168]  INFO -- : Started GET "/assets/arrow-down-left-715310c73196aac743ac2cfd2b1916fb.png" for 127.0.0.1 at 2017-08-29 22:41:29 +0900
+I, [2017-08-29T22:41:44.403409 #9168]  INFO -- : Started GET "/susanoo/pages/new" for 127.0.0.1 at 2017-08-29 22:41:44 +0900
+I, [2017-08-29T22:41:44.446991 #9168]  INFO -- : Processing by Susanoo::PagesController#new as HTML
+I, [2017-08-29T22:41:44.637807 #9168]  INFO -- :   Rendered susanoo/pages/_select_copy_page_footer.html.erb (1.4ms)
+I, [2017-08-29T22:41:44.638143 #9168]  INFO -- :   Rendered susanoo/pages/new.html.erb within layouts/application (86.6ms)
+I, [2017-08-29T22:41:44.690136 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (4.7ms)
+I, [2017-08-29T22:41:44.700579 #9168]  INFO -- : Completed 200 OK in 253ms (Views: 202.2ms | ActiveRecord: 40.3ms)
+I, [2017-08-29T22:41:44.915936 #9168]  INFO -- : Started GET "/assets/susanoo/pages-5fbfb875f79bc80249c989473a0c7cc1.css" for 127.0.0.1 at 2017-08-29 22:41:44 +0900
+I, [2017-08-29T22:41:44.921221 #9168]  INFO -- : Started GET "/assets/susanoo/pages-9e1698d7605ab1001726bd05d6219ea2.js" for 127.0.0.1 at 2017-08-29 22:41:44 +0900
+I, [2017-08-29T22:41:45.737106 #9168]  INFO -- : Started GET "/susanoo/genres/treeview" for 127.0.0.1 at 2017-08-29 22:41:45 +0900
+I, [2017-08-29T22:41:45.765297 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview as */*
+I, [2017-08-29T22:41:45.923403 #9168]  INFO -- : Completed 200 OK in 158ms (Views: 0.4ms | ActiveRecord: 72.8ms)
+I, [2017-08-29T22:41:45.939172 #9168]  INFO -- : Started GET "/susanoo/genres/treeview_with_pages" for 127.0.0.1 at 2017-08-29 22:41:45 +0900
+I, [2017-08-29T22:41:45.942783 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview_with_pages as */*
+I, [2017-08-29T22:41:45.992458 #9168]  INFO -- : Completed 200 OK in 49ms (Views: 0.3ms | ActiveRecord: 38.0ms)
+I, [2017-08-29T22:41:52.237401 #9168]  INFO -- : Started POST "/susanoo/pages" for 127.0.0.1 at 2017-08-29 22:41:52 +0900
+I, [2017-08-29T22:41:52.240566 #9168]  INFO -- : Processing by Susanoo::PagesController#create as HTML
+I, [2017-08-29T22:41:52.240686 #9168]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"RNeSr0NwScqCAmXsJg1gNAkvSpRsc5dtRdS/E/bpq0Y=", "page"=>{"title"=>"", "name"=>"", "genre_id"=>"", "template_id"=>"", "copy_id"=>""}, "commit"=>"次へ"}
+I, [2017-08-29T22:41:52.385602 #9168]  INFO -- :   Rendered susanoo/pages/_select_copy_page_footer.html.erb (0.3ms)
+I, [2017-08-29T22:41:52.385836 #9168]  INFO -- :   Rendered susanoo/pages/new.html.erb within layouts/application (8.9ms)
+I, [2017-08-29T22:41:52.392285 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (5.7ms)
+I, [2017-08-29T22:41:52.393686 #9168]  INFO -- : Completed 200 OK in 153ms (Views: 14.4ms | ActiveRecord: 49.0ms)
+I, [2017-08-29T22:41:53.075350 #9168]  INFO -- : Started GET "/susanoo/genres/treeview" for 127.0.0.1 at 2017-08-29 22:41:53 +0900
+I, [2017-08-29T22:41:53.076849 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview as */*
+I, [2017-08-29T22:41:53.115925 #9168]  INFO -- : Completed 200 OK in 39ms (Views: 0.4ms | ActiveRecord: 33.5ms)
+I, [2017-08-29T22:41:53.133703 #9168]  INFO -- : Started GET "/susanoo/genres/treeview_with_pages" for 127.0.0.1 at 2017-08-29 22:41:53 +0900
+I, [2017-08-29T22:41:53.134902 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview_with_pages as */*
+I, [2017-08-29T22:41:53.178372 #9168]  INFO -- : Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 35.6ms)
+I, [2017-08-29T22:41:58.785700 #9168]  INFO -- : Started GET "/susanoo/pages?search%5Badmission%5D=0&search%5Brecursive%5D=1&search_genre_id=1" for 127.0.0.1 at 2017-08-29 22:41:58 +0900
+I, [2017-08-29T22:41:58.787520 #9168]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-29T22:41:58.787643 #9168]  INFO -- :   Parameters: {"search"=>{"admission"=>"0", "recursive"=>"1"}, "search_genre_id"=>"1"}
+I, [2017-08-29T22:41:59.002046 #9168]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (13.7ms)
+I, [2017-08-29T22:41:59.002234 #9168]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (85.7ms)
+I, [2017-08-29T22:41:59.002813 #9168]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (100.3ms)
+I, [2017-08-29T22:41:59.012675 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (5.2ms)
+I, [2017-08-29T22:41:59.014266 #9168]  INFO -- : Completed 200 OK in 226ms (Views: 177.6ms | ActiveRecord: 39.1ms)
+I, [2017-08-29T22:41:59.112878 #9168]  INFO -- : Started GET "/assets/explore-34c74ccf6a711d836ce237e2c0466f8a.css" for 127.0.0.1 at 2017-08-29 22:41:59 +0900
+I, [2017-08-29T22:41:59.176033 #9168]  INFO -- : Started GET "/assets/treeview-f121d7f8c28a50fa23e8da14e0fd51a9.css" for 127.0.0.1 at 2017-08-29 22:41:59 +0900
+I, [2017-08-29T22:41:59.725815 #9168]  INFO -- : Started GET "/assets/icons/coloricons-sprite-14c815084c73c962ebe8b67897c628d8.png" for 127.0.0.1 at 2017-08-29 22:41:59 +0900
+I, [2017-08-29T22:42:05.348715 #9168]  INFO -- : Started GET "/susanoo/pages?search%5Badmission%5D=1&search%5Brecursive%5D=1&search_genre_id=1" for 127.0.0.1 at 2017-08-29 22:42:05 +0900
+I, [2017-08-29T22:42:05.353254 #9168]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-29T22:42:05.353368 #9168]  INFO -- :   Parameters: {"search"=>{"admission"=>"1", "recursive"=>"1"}, "search_genre_id"=>"1"}
+I, [2017-08-29T22:42:05.456671 #9168]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (33.2ms)
+I, [2017-08-29T22:42:05.456864 #9168]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (43.0ms)
+I, [2017-08-29T22:42:05.457547 #9168]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (44.0ms)
+I, [2017-08-29T22:42:05.469460 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (10.8ms)
+I, [2017-08-29T22:42:05.471191 #9168]  INFO -- : Completed 200 OK in 118ms (Views: 21.0ms | ActiveRecord: 60.6ms)
+I, [2017-08-29T22:42:12.665896 #9168]  INFO -- : Started GET "/susanoo/pages?search%5Badmission%5D=2&search%5Brecursive%5D=1&search_genre_id=1" for 127.0.0.1 at 2017-08-29 22:42:12 +0900
+I, [2017-08-29T22:42:12.670680 #9168]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-29T22:42:12.670982 #9168]  INFO -- :   Parameters: {"search"=>{"admission"=>"2", "recursive"=>"1"}, "search_genre_id"=>"1"}
+I, [2017-08-29T22:42:12.749865 #9168]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (23.4ms)
+I, [2017-08-29T22:42:12.750260 #9168]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (30.3ms)
+I, [2017-08-29T22:42:12.751272 #9168]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (31.3ms)
+I, [2017-08-29T22:42:12.758045 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (5.2ms)
+I, [2017-08-29T22:42:12.759790 #9168]  INFO -- : Completed 200 OK in 89ms (Views: 17.8ms | ActiveRecord: 52.6ms)
+I, [2017-08-29T22:42:18.394526 #9168]  INFO -- : Started GET "/susanoo/pages?search%5Badmission%5D=5&search%5Brecursive%5D=1&search_genre_id=1" for 127.0.0.1 at 2017-08-29 22:42:18 +0900
+I, [2017-08-29T22:42:18.395915 #9168]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-29T22:42:18.396023 #9168]  INFO -- :   Parameters: {"search"=>{"admission"=>"5", "recursive"=>"1"}, "search_genre_id"=>"1"}
+I, [2017-08-29T22:42:18.470527 #9168]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (26.9ms)
+I, [2017-08-29T22:42:18.470994 #9168]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (34.4ms)
+I, [2017-08-29T22:42:18.471972 #9168]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (35.2ms)
+I, [2017-08-29T22:42:18.493740 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (20.2ms)
+I, [2017-08-29T22:42:18.495402 #9168]  INFO -- : Completed 200 OK in 99ms (Views: 36.3ms | ActiveRecord: 53.8ms)
+I, [2017-08-29T22:42:27.434535 #9168]  INFO -- : Started GET "/susanoo/pages?search%5Badmission%5D=3&search%5Brecursive%5D=1&search_genre_id=1" for 127.0.0.1 at 2017-08-29 22:42:27 +0900
+I, [2017-08-29T22:42:27.438893 #9168]  INFO -- : Processing by Susanoo::PagesController#index as HTML
+I, [2017-08-29T22:42:27.439009 #9168]  INFO -- :   Parameters: {"search"=>{"admission"=>"3", "recursive"=>"1"}, "search_genre_id"=>"1"}
+I, [2017-08-29T22:42:27.727985 #9168]  INFO -- :   Rendered susanoo/pages/_page_list.html.erb (224.6ms)
+I, [2017-08-29T22:42:27.728198 #9168]  INFO -- :   Rendered susanoo/pages/_pages.html.erb (233.8ms)
+I, [2017-08-29T22:42:27.728770 #9168]  INFO -- :   Rendered susanoo/pages/index.html.erb within layouts/explore (234.6ms)
+I, [2017-08-29T22:42:27.734649 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (4.6ms)
+I, [2017-08-29T22:42:27.736368 #9168]  INFO -- : Completed 200 OK in 297ms (Views: 162.3ms | ActiveRecord: 115.7ms)
+I, [2017-08-29T22:42:34.617324 #9168]  INFO -- : Started GET "/susanoo/visitors/1/preview" for 127.0.0.1 at 2017-08-29 22:42:34 +0900
+I, [2017-08-29T22:42:34.622251 #9168]  INFO -- : Processing by Susanoo::VisitorsController#preview as HTML
+I, [2017-08-29T22:42:34.622343 #9168]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-29T22:42:34.783332 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (36.7ms)
+I, [2017-08-29T22:42:34.787686 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (2.7ms)
+I, [2017-08-29T22:42:34.883662 #9168]  INFO -- :   Rendered inline template (0.8ms)
+I, [2017-08-29T22:42:34.884021 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (49.5ms)
+I, [2017-08-29T22:42:34.888185 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (83.8ms)
+I, [2017-08-29T22:42:34.895772 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (3.9ms)
+I, [2017-08-29T22:42:34.895938 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (179.2ms)
+I, [2017-08-29T22:42:34.896883 #9168]  INFO -- : Completed 200 OK in 274ms (Views: 191.0ms | ActiveRecord: 55.7ms)
+I, [2017-08-29T22:42:35.000255 #9168]  INFO -- : Started GET "/stylesheets/doc.css" for 127.0.0.1 at 2017-08-29 22:42:35 +0900
+I, [2017-08-29T22:42:35.002558 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-29T22:42:35.002768 #9168]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-29T22:42:35.003835 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:42:35.004020 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:42:35.042270 #9168]  INFO -- : Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2017-08-29 22:42:35 +0900
+I, [2017-08-29T22:42:35.043308 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-29T22:42:35.043383 #9168]  INFO -- :   Parameters: {"path"=>"javascripts/bootstrap"}
+I, [2017-08-29T22:42:35.043966 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:42:35.044173 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:42:35.046687 #9168]  INFO -- : Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2017-08-29 22:42:35 +0900
+I, [2017-08-29T22:42:35.047574 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-29T22:42:35.047725 #9168]  INFO -- :   Parameters: {"path"=>"javascripts/jquery"}
+I, [2017-08-29T22:42:35.048294 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:42:35.048431 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:42:35.050861 #9168]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2017-08-29 22:42:35 +0900
+I, [2017-08-29T22:42:35.051821 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-29T22:42:35.051893 #9168]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-29T22:42:35.052527 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:42:35.052743 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:42:46.715237 #9168]  INFO -- : Started GET "/susanoo/genres" for 127.0.0.1 at 2017-08-29 22:42:46 +0900
+I, [2017-08-29T22:42:46.720410 #9168]  INFO -- : Processing by Susanoo::GenresController#index as HTML
+I, [2017-08-29T22:42:46.934355 #9168]  INFO -- :   Rendered susanoo/genres/_resources.html.erb (91.1ms)
+I, [2017-08-29T22:42:46.985419 #9168]  INFO -- :   Rendered susanoo/genres/_genre.html.erb (45.1ms)
+I, [2017-08-29T22:42:46.986347 #9168]  INFO -- :   Rendered susanoo/genres/index.html.erb within layouts/explore (160.1ms)
+I, [2017-08-29T22:42:47.025708 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (4.8ms)
+I, [2017-08-29T22:42:47.043147 #9168]  INFO -- : Completed 200 OK in 322ms (Views: 230.8ms | ActiveRecord: 76.0ms)
+I, [2017-08-29T22:42:47.159464 #9168]  INFO -- : Started GET "/assets/susanoo/genres-6be974e4615627812f1a28b3b3b19e43.css" for 127.0.0.1 at 2017-08-29 22:42:47 +0900
+I, [2017-08-29T22:42:47.163136 #9168]  INFO -- : Started GET "/assets/susanoo/genres-cb2637c4ce429a7c25c3cc3dc1cfde7d.js" for 127.0.0.1 at 2017-08-29 22:42:47 +0900
+I, [2017-08-29T22:42:47.719255 #9168]  INFO -- : Started GET "/susanoo/genres/treeview" for 127.0.0.1 at 2017-08-29 22:42:47 +0900
+I, [2017-08-29T22:42:47.720580 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview as */*
+I, [2017-08-29T22:42:47.761591 #9168]  INFO -- : Completed 200 OK in 41ms (Views: 0.4ms | ActiveRecord: 33.8ms)
+I, [2017-08-29T22:42:50.780858 #9168]  INFO -- : Started GET "/susanoo/genres/select_resource?type=page&id=1&_=1504014167361" for 127.0.0.1 at 2017-08-29 22:42:50 +0900
+I, [2017-08-29T22:42:50.782375 #9168]  INFO -- : Processing by Susanoo::GenresController#select_resource as JS
+I, [2017-08-29T22:42:50.782472 #9168]  INFO -- :   Parameters: {"type"=>"page", "id"=>"1", "_"=>"1504014167361"}
+I, [2017-08-29T22:42:51.657906 #9168]  INFO -- :   Rendered susanoo/genres/_page.html.erb (83.0ms)
+I, [2017-08-29T22:42:51.658400 #9168]  INFO -- :   Rendered susanoo/genres/select_resource_page.js.erb (106.3ms)
+I, [2017-08-29T22:42:51.658966 #9168]  INFO -- : Completed 200 OK in 876ms (Views: 841.6ms | ActiveRecord: 31.0ms)
+I, [2017-08-29T22:42:54.247637 #9168]  INFO -- : Started GET "/susanoo/pages/1" for 127.0.0.1 at 2017-08-29 22:42:54 +0900
+I, [2017-08-29T22:42:54.249319 #9168]  INFO -- : Processing by Susanoo::PagesController#show as HTML
+I, [2017-08-29T22:42:54.249488 #9168]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-29T22:42:54.468130 #9168]  INFO -- :   Rendered susanoo/pages/show.html.erb within layouts/application (104.1ms)
+I, [2017-08-29T22:42:54.491794 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (15.3ms)
+I, [2017-08-29T22:42:54.494315 #9168]  INFO -- : Completed 200 OK in 245ms (Views: 149.1ms | ActiveRecord: 85.4ms)
+I, [2017-08-29T22:43:02.274087 #9168]  INFO -- : Started GET "/susanoo/visitors/1/preview" for 127.0.0.1 at 2017-08-29 22:43:02 +0900
+I, [2017-08-29T22:43:02.305511 #9168]  INFO -- : Processing by Susanoo::VisitorsController#preview as HTML
+I, [2017-08-29T22:43:02.305662 #9168]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2017-08-29T22:43:02.400165 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb (60.1ms)
+I, [2017-08-29T22:43:02.401628 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb (1.1ms)
+I, [2017-08-29T22:43:02.403772 #9168]  INFO -- :   Rendered inline template (0.9ms)
+I, [2017-08-29T22:43:02.403971 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_content.html.erb (1.7ms)
+I, [2017-08-29T22:43:02.404851 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/_body.html.erb (3.0ms)
+I, [2017-08-29T22:43:02.405742 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/shared/_footer.html.erb (0.6ms)
+I, [2017-08-29T22:43:02.405865 #9168]  INFO -- :   Rendered vendor/engines/site_design/app/views/susanoo/visitors/top/show.html.erb (66.6ms)
+I, [2017-08-29T22:43:02.406148 #9168]  INFO -- : Completed 200 OK in 100ms (Views: 13.8ms | ActiveRecord: 79.4ms)
+I, [2017-08-29T22:43:02.458120 #9168]  INFO -- : Started GET "/stylesheets/doc.css" for 127.0.0.1 at 2017-08-29 22:43:02 +0900
+I, [2017-08-29T22:43:02.459174 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-29T22:43:02.459256 #9168]  INFO -- :   Parameters: {"path"=>"stylesheets/doc"}
+I, [2017-08-29T22:43:02.460058 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:43:02.460309 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:43:02.462715 #9168]  INFO -- : Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2017-08-29 22:43:02 +0900
+I, [2017-08-29T22:43:02.463739 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as CSS
+I, [2017-08-29T22:43:02.463846 #9168]  INFO -- :   Parameters: {"path"=>"stylesheets/bootstrap"}
+I, [2017-08-29T22:43:02.464578 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:43:02.464760 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:43:02.468080 #9168]  INFO -- : Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2017-08-29 22:43:02 +0900
+I, [2017-08-29T22:43:02.468987 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-29T22:43:02.469062 #9168]  INFO -- :   Parameters: {"path"=>"javascripts/jquery"}
+I, [2017-08-29T22:43:02.469631 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:43:02.469773 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:43:02.471828 #9168]  INFO -- : Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2017-08-29 22:43:02 +0900
+I, [2017-08-29T22:43:02.472695 #9168]  INFO -- : Processing by Susanoo::VisitorsController#attach_file as JS
+I, [2017-08-29T22:43:02.472772 #9168]  INFO -- :   Parameters: {"path"=>"javascripts/bootstrap"}
+I, [2017-08-29T22:43:02.473305 #9168]  INFO -- :   Rendered text template (0.0ms)
+I, [2017-08-29T22:43:02.473505 #9168]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2017-08-29T22:43:15.674651 #9168]  INFO -- : Started GET "/susanoo/pages/new" for 127.0.0.1 at 2017-08-29 22:43:15 +0900
+I, [2017-08-29T22:43:15.687910 #9168]  INFO -- : Processing by Susanoo::PagesController#new as HTML
+I, [2017-08-29T22:43:15.751651 #9168]  INFO -- :   Rendered susanoo/pages/_select_copy_page_footer.html.erb (0.5ms)
+I, [2017-08-29T22:43:15.752059 #9168]  INFO -- :   Rendered susanoo/pages/new.html.erb within layouts/application (10.1ms)
+I, [2017-08-29T22:43:15.762852 #9168]  INFO -- :   Rendered shared/_navigation.html.erb (9.5ms)
+I, [2017-08-29T22:43:15.764700 #9168]  INFO -- : Completed 200 OK in 77ms (Views: 18.2ms | ActiveRecord: 49.6ms)
+I, [2017-08-29T22:43:16.358750 #9168]  INFO -- : Started GET "/susanoo/genres/treeview" for 127.0.0.1 at 2017-08-29 22:43:16 +0900
+I, [2017-08-29T22:43:16.359931 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview as */*
+I, [2017-08-29T22:43:16.392176 #9168]  INFO -- : Completed 200 OK in 32ms (Views: 0.4ms | ActiveRecord: 26.4ms)
+I, [2017-08-29T22:43:16.458372 #9168]  INFO -- : Started GET "/susanoo/genres/treeview_with_pages" for 127.0.0.1 at 2017-08-29 22:43:16 +0900
+I, [2017-08-29T22:43:16.459551 #9168]  INFO -- : Processing by Susanoo::GenresController#treeview_with_pages as */*
+I, [2017-08-29T22:43:16.564930 #9168]  INFO -- : Completed 200 OK in 105ms (Views: 0.4ms | ActiveRecord: 96.8ms)
